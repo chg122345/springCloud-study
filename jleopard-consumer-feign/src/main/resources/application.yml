@@ -1,0 +1,19 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: consumer
+#ribbon:
+#  eureka:
+#    enabled: true
+#开启客户端容错
+feign:
+  hystrix:
+    enabled: true
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka8001.com:8001/eureka/,http://eureka8002.com:8002/eureka/
+

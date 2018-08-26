@@ -1,0 +1,21 @@
+server:
+  port: 9001
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka8001.com:8001/eureka/,http://eureka8002.com:8002/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+#开启断路器功能
+feign:
+  hystrix:
+    enabled: true
+
+#turbine:
+#  stream:
+#    port: 9001
