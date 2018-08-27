@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-08-27T09:54:18.427+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "Missing parameters: value,name",
+  "path": "/actuator/bus-env"
+}

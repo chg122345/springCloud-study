@@ -28,8 +28,8 @@ public class UserController {
         return userClientService.get();
     }
 
-    @GetMapping("/list")
-    public User list(){
+    @GetMapping(value = "/list",produces="text/html;charset=UTF-8")
+    public String list(){
         return userClientService.list();
     }
 }

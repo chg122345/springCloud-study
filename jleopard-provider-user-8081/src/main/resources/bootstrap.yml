@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: user-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: dev
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka8001.com:8001/eureka/,http://eureka8002.com:8002/eureka/
+    fetch-registry: true
+  instance:
+    instance-id: user-8081-hystrix
+    prefer-ip-address: true
+#info:
+#  app:
+#    name: userService
+#  company: www.jleopard.org
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#  server:
+#    servlet:
+#      context-path: /
+#server:
+#  port: 8081
+#thymeleaf:
+#  cache: false
+#  check-template-location: false
+#  encoding: UTF-8
+#  mode: HTML
+#  prefix: classpath:/templates/
+#  suffix: .html

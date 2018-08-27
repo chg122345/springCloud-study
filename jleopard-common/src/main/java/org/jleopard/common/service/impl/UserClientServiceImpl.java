@@ -21,7 +21,7 @@ public class UserClientServiceImpl implements UserClientService {
     }
 
     @Override
-    public User list() {
-        return new User(22L,"error list","110");
+    public String list() {
+        return new User(22L,"error list","110").toString();
     }
 }

@@ -1,9 +1,8 @@
 package org.jleopard.provider;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.client.SpringCloudApplication;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 
 /**
  * @Copyright (c) 2018, Chen_9g 陈刚 (80588183@qq.com).
@@ -14,9 +13,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * Find a way for success and not make excuses for failure.
  * </p>
  */
-@SpringBootApplication
-@EnableEurekaClient
-//@EnableCircuitBreaker
+@EnableHystrix
+@SpringCloudApplication
 public class Provider8081App {
     public static void main(String[] args) {
         SpringApplication.run(Provider8081App.class,args);

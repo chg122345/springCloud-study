@@ -4,6 +4,7 @@ import org.jleopard.common.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * @Copyright (c) 2018, Chen_9g 陈刚 (80588183@qq.com).
@@ -25,8 +26,8 @@ public class UserController {
     }
 
     @GetMapping("/list")
-    public User list(){
-        User user = new User(22L,"戳错了","110");
-        return user;
+    public ModelAndView list(){
+        User user = new User(22L,"list info","10010");
+        return new ModelAndView("index").addObject("user",user);
     }
 }

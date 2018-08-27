@@ -3,6 +3,7 @@ package org.jleopard.common.service;
 import org.jleopard.common.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 
 /**
  * @Copyright (c) 2018, Chen_9g 陈刚 (80588183@qq.com).
@@ -20,5 +21,5 @@ public interface UserClientService {
     User get();
 
     @GetMapping("/user/list")
-    User list();
+    String list();
 }

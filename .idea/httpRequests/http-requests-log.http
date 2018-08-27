@@ -1,0 +1,151 @@
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T060240.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T060239.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T060104.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055842.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055839.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055810.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055809.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055808.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055807.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055703.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055700.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055658.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055622.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055621.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-refresh
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055604.415.json
+
+###
+
+POST http://localhost:8080/actuator/bus-env
+Content-Type: application/vnd.spring-boot.actuator.v2+json
+
+<> 2018-08-27T055418.400.json
+
+###
+

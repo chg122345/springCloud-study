@@ -1,0 +1,23 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: api-gateway
+eureka:
+  instance:
+    instance-id: api-gateway-9090
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka8001.com:8001/eureka/,http://eureka8002.com:8002/eureka/
+zuul:
+  routes:
+#    users: #可以写成下面的类型
+#      path: /user/**
+#      serviceId: user-service
+    user-service: /user/**
+#      sensitiveHeaders: #敏感头 默认 cookie set-cookie
+  ignored-services: "*"  # 排除服务名路由
+#  ignored-patterns: # 正则排除指定路由 /**/list 禁止访问 list api
+#    -

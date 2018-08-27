@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jleopardAPIGateway" />
         <module name="jleopardcommon" />
+        <module name="jleopardconfig" />
         <module name="jleopardconsumerfeign" />
         <module name="jleopardconsumerhystrixdashboard9001" />
         <module name="jleopardeureka8001" />

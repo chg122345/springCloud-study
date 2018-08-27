@@ -3,6 +3,7 @@ package org.jleopard.common.service;
 import feign.hystrix.FallbackFactory;
 import org.jleopard.common.User;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.ModelAttribute;
 
 /**
  * @Copyright (c) 2018, Chen_9g 陈刚 (80588183@qq.com).
@@ -24,8 +25,8 @@ public class UserClientServiceFallbackFactory implements FallbackFactory<UserCli
             }
 
             @Override
-            public User list() {
-                return new User(22L,"error list","110");
+            public String list() {
+                return "当前访问人数过多,请求超时...";
             }
         };
     }
