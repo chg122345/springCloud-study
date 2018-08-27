@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="441d775e-47ad-44cd-ae3b-bae07ad03ae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jleopard-API-Gateway/jleopardAPIGateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-API-Gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-API-Gateway/src/main/java/org/jleopard/gateway/GatewayApp9090.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-API-Gateway/src/main/java/org/jleopard/gateway/filter/AuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-API-Gateway/src/main/java/org/jleopard/gateway/filter/RateLimitFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-API-Gateway/src/main/java/org/jleopard/gateway/filter/TokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-API-Gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-common/jleopardcommon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-config/jleopardconfig.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-config/src/main/java/org/jleopard/config/ConfigYml8080App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-consumer-feign/jleopardconsumerfeign.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/jleopardconsumerhystrixdashboard9001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-eureka-8001/jleopardeureka8001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-eureka-8002/jleopardeureka8002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/jleopardprovideruser8081.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/UserClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/UserClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/UserClientServiceFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/UserClientServiceFallbackFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/impl/UserClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/impl/UserClientServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-consumer-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-consumer-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-consumer-feign/src/main/java/org/jleopard/consumer/Consumer8801App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-consumer-feign/src/main/java/org/jleopard/consumer/Consumer8801App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-consumer-feign/src/main/java/org/jleopard/consumer/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-consumer-feign/src/main/java/org/jleopard/consumer/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-consumer-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-consumer-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/src/main/java/org/jleopard/consumer/HystrixDashboard9001App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/src/main/java/org/jleopard/consumer/HystrixDashboard9001App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-provider-user-8081/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/Provider8081App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/Provider8081App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jleopardcommunity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jleopardcommunity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="441d775e-47ad-44cd-ae3b-bae07ad03ae4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/jleopard-eureka-8001/target/" />
@@ -159,7 +120,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response25.json" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response37.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -267,32 +228,6 @@
             <path>
               <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
               <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
-              <item name="jleopard-config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
-              <item name="jleopard-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
-              <item name="jleopard-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
-              <item name="jleopard-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -510,12 +445,12 @@
       <workItem from="1535287501641" duration="2016000" />
       <workItem from="1535327939689" duration="6333000" />
       <workItem from="1535335210834" duration="11423000" />
-      <workItem from="1535355650306" duration="7938000" />
+      <workItem from="1535355650306" duration="8391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47681000" />
+    <option name="totallyTimeSpent" value="48134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="26" width="1863" height="1054" extended-state="6" />
@@ -526,7 +461,7 @@
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="REST Client" visible="true" weight="0.33512932" />
+      <window_info anchor="bottom" id="REST Client" weight="0.33512932" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286638" />
@@ -537,7 +472,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297414" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3297414" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3297414" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -550,7 +485,7 @@
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="SciView" order="7" weight="0.3296643" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.2966428" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.2966428" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
