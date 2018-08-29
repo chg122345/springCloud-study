@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: user-auth
+#  cloud:
+#    config:
+#      discovery:
+#        enabled: true
+#        service-id: CONFIG
+#      profile: dev
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka8001.com:8001/eureka/,http://eureka8002.com:8002/eureka/
+    fetch-registry: false
+server:
+  port: 8881
+  servlet:
+    context-path: /auth

@@ -17,6 +17,7 @@
         <module>jleopard-consumer-hystrix-dashboard-9001</module>
         <module>jleopard-API-Gateway</module>
         <module>jleopard-config</module>
+        <module>jleopard-auth</module>
     </modules>
 
     <properties>

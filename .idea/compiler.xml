@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jleopardAPIGateway" />
+        <module name="jleopardauth" />
         <module name="jleopardcommon" />
         <module name="jleopardconfig" />
         <module name="jleopardconsumerfeign" />

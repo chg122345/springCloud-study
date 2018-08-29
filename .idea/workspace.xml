@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="441d775e-47ad-44cd-ae3b-bae07ad03ae4" name="Default Changelist" comment="" />
+    <list default="true" id="441d775e-47ad-44cd-ae3b-bae07ad03ae4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jleopard-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/Auth8881App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/ResuorceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/util/MyUserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jleopard-auth/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/config/OauthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/templates/secure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jleopard-provider-user-8081/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/Provider8081App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/Provider8081App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/jleopard-eureka-8001/target/" />
@@ -13,6 +34,7 @@
     <ignored path="$PROJECT_DIR$/jleopard-API-Gateway/target/" />
     <ignored path="$PROJECT_DIR$/jleopard-config/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/jleopard-auth/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,66 +45,78 @@
     <session id="-558046582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.44" value="2" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="html" value="52" />
-          <entry key="java" value="1771" />
-          <entry key="xml" value="264" />
-          <entry key="yml" value="797" />
+          <entry key="html" value="64" />
+          <entry key="java" value="3370" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="291" />
+          <entry key="yml" value="1108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="52" />
-          <entry key="JAVA" value="1771" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="264" />
-          <entry key="YAML" value="797" />
+          <entry key="HTML" value="64" />
+          <entry key="JAVA" value="3370" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="291" />
+          <entry key="YAML" value="1108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="0" value="2" />
-          <entry key="class" value="45" />
-          <entry key="html" value="3" />
+          <entry key="class" value="76" />
+          <entry key="html" value="4" />
+          <entry key="http" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="50" />
-          <entry key="json" value="2" />
-          <entry key="pom" value="21" />
-          <entry key="xml" value="73" />
-          <entry key="yml" value="34" />
+          <entry key="java" value="88" />
+          <entry key="json" value="4" />
+          <entry key="md" value="2" />
+          <entry key="pom" value="27" />
+          <entry key="xml" value="78" />
+          <entry key="yml" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="45" />
-          <entry key="HTML" value="3" />
+          <entry key="CLASS" value="76" />
+          <entry key="HTML" value="4" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="50" />
-          <entry key="JSON" value="2" />
+          <entry key="JAVA" value="88" />
+          <entry key="JSON" value="4" />
+          <entry key="Markdown" value="2" />
+          <entry key="Scratch" value="1" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="94" />
-          <entry key="YAML" value="34" />
+          <entry key="XML" value="105" />
+          <entry key="YAML" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages">
         <counts>
-          <entry key="EditLiveRequestMapping.fromToolWindow" value="1" />
+          <entry key="DefaultRequestNavigator.fromToolWindow" value="8" />
+          <entry key="EditLiveRequestMapping.fromToolWindow" value="2" />
+          <entry key="RestClientRequestEditorNavigator.fromToolWindow" value="1" />
           <entry key="RestClientRequestRunnerNavigator.fromToolWindow" value="1" />
         </counts>
       </usages-collector>
@@ -90,11 +124,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/AuthConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jleopard-config/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/WebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Auth8881App.http">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/config/WebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/config/OauthConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.0.0.RELEASE/spring-security-oauth2-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/security/oauth2/client/EnableOAuth2Sso.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/Provider8081App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/ResuorceServerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -114,19 +244,16 @@
       <find>feign</find>
       <find>hystrix</find>
       <find>zuul</find>
+      <find>JwkTokenStore</find>
+      <find>jwt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response37.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/jleopard-eureka-8001/src/main/java/org/jleopard/eureka8001/Eureka8001App.java" />
         <option value="$PROJECT_DIR$/jleopard-eureka-8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jleopard-eureka-8002/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jleopard-eureka-8002/src/main/java/org/jleopard/eureka8002/Eureka8002App.java" />
@@ -141,7 +268,6 @@
         <option value="$PROJECT_DIR$/jleopard-consumer-feign/src/main/java/org/jleopard/consumer/Consumer8801App.java" />
         <option value="$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/pom.xml" />
-        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/controller/UserController.java" />
         <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/UserClientService.java" />
         <option value="$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/impl/UserClientServiceImpl.java" />
@@ -157,11 +283,28 @@
         <option value="$PROJECT_DIR$/jleopard-config/src/main/java/org/jleopard/config.java" />
         <option value="$PROJECT_DIR$/jleopard-config/src/main/java/org/jleopard/ConfigYml8080App.java" />
         <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/Provider8081App.java" />
-        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/jleopard-config/pom.xml" />
-        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/pom.xml" />
         <option value="$PROJECT_DIR$/jleopard-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/security/CustomAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/filter/JWTLoginFilter.java" />
+        <option value="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/security/TokenAuthenticationService.java" />
+        <option value="$PROJECT_DIR$/jleopard-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/templates/secure.html" />
+        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/Provider8081App.java" />
+        <option value="$PROJECT_DIR$/jleopard-auth/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/util/MyUserDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/Auth8881App.java" />
+        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/AuthConfig.java" />
+        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/ResuorceServerConfig.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/Auth8881App.http" />
+        <option value="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/config/OauthConfig.java" />
+        <option value="$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/WebConfig.java" />
       </list>
     </option>
   </component>
@@ -184,22 +327,31 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jleopard-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="jleopard-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="jleopard-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="jleopard-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jleopard-provider-user-8081" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jleopard-provider-user-8081" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="509" />
-    <option name="y" value="100" />
-    <option name="width" value="1382" />
-    <option name="height" value="936" />
+    <option name="x" value="345" />
+    <option name="y" value="291" />
+    <option name="width" value="1412" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -221,6 +373,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -229,11 +382,133 @@
               <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
               <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-provider-user-8081" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-provider-user-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-provider-user-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-provider-user-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-provider-user-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-provider-user-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-provider-user-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jleopardcommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jleopardcommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="jleopard-provider-user-8081" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,6 +519,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/project/uaa-zuul-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -256,16 +532,160 @@
       <recent name="org.jleopard.gateway.filter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jleopard-config/src/main/resources" />
       <recent name="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/jleopard-auth/src/main/resources" />
+      <recent name="$PROJECT_DIR$/jleopard-config/src/main/resources" />
       <recent name="$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources" />
       <recent name="$PROJECT_DIR$/jleopard-consumer-feign/src/main/resources" />
-      <recent name="$PROJECT_DIR$/jleopard-eureka-8002/src/main/resources" />
     </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/auth" />
+                <option name="value" value="2C11E35AAC2331CEB3C0946470EF4597" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8881" />
+          <option name="urlPath" value="/auth/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="authorization_code" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="code" />
+                <option name="value" value="BeZzC8" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="redirect_uri" />
+                <option name="value" value="http://localhost:8081/user/user/get" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="webapp-01" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="response_type" />
+                <option name="value" value="code" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="redirect_uri" />
+                <option name="value" value="http:localhost:8081/user/user/get" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8881" />
+          <option name="urlPath" value="/auth/oauth/authorize" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="authorization_code" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="code" />
+                <option name="value" value="BeZzC8" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="redirect_uri" />
+                <option name="value" value="http://localhost:8081/user/user/get" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="client_id" />
+                <option name="value" value="webapp-01" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="response_type" />
+                <option name="value" value="code" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="redirect_uri" />
+                <option name="value" value="http:localhost:8081/user/user/get" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8881" />
+          <option name="urlPath" value="/auth/oauth/token" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/x-www-form-urlencoded" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="grant_type" />
+                <option name="value" value="authorization_code" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="code" />
+                <option name="value" value="BeZzC8" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="redirect_uri" />
+                <option name="value" value="http://localhost:8081/user/user/get" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8080" />
@@ -320,9 +740,23 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.24650642" />
+    <option name="contentProportion" value="0.20570152" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Provider8081App">
+  <component name="RunManager" selected="Spring Boot.Auth8881App">
+    <configuration name="Auth8881App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="jleopardauth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jleopard.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.jleopard.auth.Auth8881App" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigYml8080App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="jleopardconfig" />
       <extension name="coverage">
@@ -423,6 +857,7 @@
       <item itemvalue="Spring Boot.HystrixDashboard9001App" />
       <item itemvalue="Spring Boot.GatewayApp9090" />
       <item itemvalue="Spring Boot.ConfigYml8080App" />
+      <item itemvalue="Spring Boot.Auth8881App" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -445,23 +880,28 @@
       <workItem from="1535287501641" duration="2016000" />
       <workItem from="1535327939689" duration="6333000" />
       <workItem from="1535335210834" duration="11423000" />
-      <workItem from="1535355650306" duration="8391000" />
+      <workItem from="1535355650306" duration="8883000" />
+      <workItem from="1535424991757" duration="2384000" />
+      <workItem from="1535427422982" duration="1485000" />
+      <workItem from="1535501641624" duration="10728000" />
+      <workItem from="1535520074788" duration="7594000" />
+      <workItem from="1535545173384" duration="624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48134000" />
+    <option name="totallyTimeSpent" value="71441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="26" width="1863" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30930105" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37534398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="REST Client" weight="0.33512932" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286638" />
@@ -472,11 +912,12 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3297414" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3297414" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.3286638" />
+      <window_info anchor="bottom" id="REST Client" order="14" weight="0.3858561" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.32754344" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -485,7 +926,7 @@
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="SciView" order="7" weight="0.3296643" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.2966428" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.27793065" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,467 +941,318 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jleopard-consumer-feign/target/classes/application.yml" />
-    <entry file="file://$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/src/main/java/org/jleopard/consumer/controller/TestController.java" />
-    <entry file="file://$PROJECT_DIR$/jleopard-consumer-feign/src/main/java/org/jleopard/consumer/Consumer8801App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-consumer-hystrix-dashboard-9001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-thymeleaf/2.0.4.RELEASE/spring-boot-starter-thymeleaf-2.0.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/impl/UserClientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/bind/annotation/GetMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/jleopardprovideruser8081.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/UserClientServiceFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-consumer-feign/src/main/java/org/jleopard/consumer/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.0.1.RELEASE/spring-cloud-starter-netflix-hystrix-2.0.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-build/2.0.3.RELEASE/spring-cloud-build-2.0.3.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-openfeign/2.0.1.RELEASE/spring-cloud-starter-openfeign-2.0.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign/2.0.1.RELEASE/spring-cloud-openfeign-2.0.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Finchley.SR1/spring-cloud-dependencies-Finchley.SR1.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-consumer-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.0.1.RELEASE/spring-cloud-starter-netflix-zuul-2.0.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-common/src/main/java/org/jleopard/common/service/UserClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/org.jleopard:jleopard-community:1.0.0">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>org.jleopard:jleopard-community:1.0.0</OriginalElement>
-          <nodes>
-            <node x="" y="">org.jleopard:jleopard-community:1.0.0</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/org.jleopard:jleopard-provider-user-8081:1.0.0">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>org.jleopard:jleopard-provider-user-8081:1.0.0</OriginalElement>
-          <nodes>
-            <node x="" y="">org.jleopard:jleopard-provider-user-8081:1.0.0</node>
-            <node x="" y="">org.jleopard:jleopard-common:jar:1.0.0</node>
-            <node x="" y="">org.jleopard:jleopard-common:jar:1.0.0/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.jleopard:jleopard-common:jar:1.0.0/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.jleopard:jleopard-common:jar:1.0.0/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.jleopard:jleopard-common:jar:1.0.0/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.1.RELEASE/org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.jleopard:jleopard-common:jar:1.0.0/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/io.github.openfeign:feign-core:jar:9.5.1</node>
-            <node x="" y="">org.jleopard:jleopard-common:jar:1.0.0/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/io.github.openfeign:feign-slf4j:jar:9.5.1</node>
-            <node x="" y="">org.jleopard:jleopard-common:jar:1.0.0/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.1</node>
-            <node x="" y="">org.jleopard:jleopard-common:jar:1.0.0/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/io.github.openfeign:feign-java8:jar:9.5.1</node>
-            <node x="" y="">org.jleopard:jleopard-common:jar:1.0.0/org.projectlombok:lombok:jar:1.16.22</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56/org.bouncycastle:bcprov-jdk15on:jar:1.56</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.code.findbugs:jsr305:jar:3.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12/io.reactivex:rxjava:jar:1.3.8</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12/com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12/com.fasterxml.jackson.core:jackson-core:jar:2.9.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12/com.fasterxml.jackson.core:jackson-databind:jar:2.9.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.apache.commons:commons-lang3:jar:3.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.ow2.asm:asm:jar:5.0.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.aspectj:aspectjweaver:jar:1.8.13</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1/org.reactivestreams:reactive-streams:jar:1.0.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.codehaus.jettison:jettison:jar:1.3.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.9.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/javax.ws.rs:jsr311-api:jar:1.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey:jersey-core:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey:jersey-client:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.apache.httpcomponents:httpclient:jar:4.5.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.apache.httpcomponents:httpclient:jar:4.5.6/org.apache.httpcomponents:httpcore:jar:4.4.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.apache.httpcomponents:httpclient:jar:4.5.6/commons-codec:commons-codec:jar:1.11</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.github.vlsi.compactmap:compactmap:jar:1.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.github.vlsi.compactmap:compactmap:jar:1.2.1/com.github.andrewoma.dexx:dexx-collections:jar:0.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-servo:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/com.google.guava:guava:jar:16.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.1.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.1.27.Final/io.netty:netty-codec:jar:4.1.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.27.Final/io.netty:netty-common:jar:4.1.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.27.Final/io.netty:netty-buffer:jar:4.1.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.27.Final/io.netty:netty-transport-native-unix-common:jar:4.1.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.27.Final/io.netty:netty-transport:jar:4.1.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.27.Final/io.netty:netty-transport:jar:4.1.27.Final/io.netty:netty-resolver:jar:4.1.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xmlpull:xmlpull:jar:1.1.3.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xpp3:xpp3_min:jar:1.1.4c</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework:spring-core:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.springframework:spring-core:jar:5.0.8.RELEASE/org.springframework:spring-jcl:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.32</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.32</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.32</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.11.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.11.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.11.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.11.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-web:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-web:jar:5.0.8.RELEASE/org.springframework:spring-beans:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-webmvc:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-webmvc:jar:5.0.8.RELEASE/org.springframework:spring-aop:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-webmvc:jar:5.0.8.RELEASE/org.springframework:spring-context:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE/org.springframework:spring-webmvc:jar:5.0.8.RELEASE/org.springframework:spring-expression:jar:5.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE/io.micrometer:micrometer-core:jar:1.0.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE/io.micrometer:micrometer-core:jar:1.0.6/org.hdrhistogram:HdrHistogram:jar:2.1.10</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE/io.micrometer:micrometer-core:jar:1.0.6/org.latencyutils:LatencyUtils:jar:2.0.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.4.RELEASE/org.thymeleaf:thymeleaf-spring5:jar:3.0.9.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.4.RELEASE/org.thymeleaf:thymeleaf-spring5:jar:3.0.9.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.9.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.4.RELEASE/org.thymeleaf:thymeleaf-spring5:jar:3.0.9.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.9.RELEASE/org.attoparser:attoparser:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.4.RELEASE/org.thymeleaf:thymeleaf-spring5:jar:3.0.9.RELEASE/org.thymeleaf:thymeleaf:jar:3.0.9.RELEASE/org.unbescape:unbescape:jar:1.1.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.4.RELEASE/org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.1.RELEASE</node>
-            <node x="" y="">org.springframework:springloaded:jar:1.2.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot:jar:2.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.0.4.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="7835.0" y="565.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopardcommunity.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/spring-cloud-netflix-zuul-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/stereotype/Component.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk1.8.0_172/src.zip!/java/lang/String.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.0.4.RELEASE/spring-boot-actuator-2.0.4.RELEASE.jar!/org/springframework/boot/actuate/endpoint/web/servlet/AbstractWebMvcEndpointHandlerMapping.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/HttpStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/spring-cloud-netflix-zuul-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/support/FilterConstants.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0/guava-16.0.jar!/com/google/common/util/concurrent/RateLimiter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-API-Gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-API-Gateway/src/main/java/org/jleopard/gateway/GatewayApp9090.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-API-Gateway/src/main/java/org/jleopard/gateway/filter/RateLimitFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-API-Gateway/src/main/java/org/jleopard/gateway/filter/TokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-API-Gateway/src/main/java/org/jleopard/gateway/filter/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="54" column="77" selection-start-line="54" selection-start-column="77" selection-end-line="54" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-config/src/main/java/org/jleopard/config/ConfigYml8080App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-client/2.0.1.RELEASE/spring-cloud-config-client-2.0.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-API-Gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE.jar!/org/springframework/cloud/client/SpringCloudApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="221">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.1.RELEASE/spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/security/CustomAuthenticationProvider.java" />
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/filter/JWTLoginFilter.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar!/org/bouncycastle/crypto/tls/SignatureAlgorithm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_172/src.zip!/com/sun/org/apache/xml/internal/security/algorithms/SignatureAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/SecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/security/TokenAuthenticationService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/EnableAuthorizationServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerSecurityConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/jwk/JwkTokenStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="41" column="131" lean-forward="true" selection-start-line="41" selection-start-column="131" selection-end-line="41" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/client/token/grant/code/AuthorizationCodeResourceDetails.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-jwt/1.0.9.RELEASE/spring-security-jwt-1.0.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-build/2.0.2.RELEASE/spring-cloud-build-2.0.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-security-parent/2.0.0.RELEASE/spring-cloud-security-parent-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-oauth2/2.0.0.RELEASE/spring-cloud-starter-oauth2-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.0.0.RELEASE/spring-security-oauth2-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/security/oauth2/resource/ResourceServerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="206" column="20" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerEndpointsConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="408" column="16" selection-start-line="408" selection-start-column="16" selection-end-line="408" selection-end-column="16" />
+          <caret line="223" column="93" selection-start-line="223" selection-start-column="72" selection-end-line="223" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/EnableResourceServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.7.RELEASE/spring-security-config-5.0.7.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.7.RELEASE/spring-security-config-5.0.7.RELEASE.jar!/org/springframework/security/config/BeanIds.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/annotation/Qualifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE.jar!/org/springframework/security/authentication/AuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/templates/secure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/utils.java" />
+    <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/Auth8881App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/util/MyUserDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/JwtAccessTokenConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="112" column="40" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenKeyEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/ResourceServerConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/ResourceServerConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/EnableOAuth2Client.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/AuthConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
           <folding>
-            <element signature="e#13860#13861#0" expanded="true" />
-            <element signature="e#13904#13905#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Auth8881App.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/config/OauthConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.0.0.RELEASE/spring-security-oauth2-autoconfigure-2.0.0.RELEASE.jar!/org/springframework/boot/autoconfigure/security/oauth2/client/EnableOAuth2Sso.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/java/org/jleopard/provider/Provider8081App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/ResuorceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -969,53 +1261,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="935">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-consumer-feign/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/jleopard-auth/src/main/java/org/jleopard/auth/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.0.0.RELEASE/spring-cloud-starter-bus-amqp-2.0.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-provider-user-8081/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.0.4.RELEASE/spring-boot-actuator-2.0.4.RELEASE.jar!/org/springframework/boot/actuate/endpoint/web/servlet/AbstractWebMvcEndpointHandlerMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jleopard-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="435">
+          <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

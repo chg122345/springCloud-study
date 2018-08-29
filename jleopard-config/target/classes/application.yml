@@ -1,0 +1,31 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chg122345/jleopard-community-config
+          basedir: /home/jleopard/configYml
+  rabbitmq:
+    host: localhost
+    username: chg122345
+    password: chg122345
+eureka:
+  instance:
+    instance-id: config-8080
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka8001.com:8001/eureka/,http://eureka8002.com:8002/eureka/
+info:
+  app.name: config
+  company: www.jleopard.org
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
